@@ -70,11 +70,36 @@ import '../styles/App.css';
 //           version: "1.3"
 //   }
 // }
+
 const App = () => {
   
   return (
     <div id="main">
       
+<div>
+    <img id="img" />
+    <div id="name"></div>
+</div>
+<div>
+    <button data-attr="age" id="btnAge">See Age</button>
+    <button data-attr="email" id="btnEmail">See Email</button>
+    <button data-attr="phone" id="btnPhone">See Phone</button>
+</div>
+
+<section>
+    <h3>Additional Info</h3>
+    <div>
+        
+        <div id="age"></div>
+        <div id="email"></div>
+        <div id="phone"></div>
+    </div>
+</section>
+
+<div>
+    <button id="getUser">Get New User</button>
+</div>
+
     </div>
   )
 }
